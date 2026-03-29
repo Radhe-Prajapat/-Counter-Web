@@ -1,0 +1,10 @@
+step-1
+install redux = npm install @reduxjs/toolkit
+install redux = npm install react-redux
+
+step-2
+create = redux/store.js
+create = redux/feature/featureName.js
+
+step-3
+reper = main.jsx ,(<Provider store={storeName} ></Provider>)
