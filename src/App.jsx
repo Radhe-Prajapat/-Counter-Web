@@ -11,7 +11,7 @@ const App = () => {
   const count = useSelector((state) => state.counter.value);
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-[#eef9ff] font-sans p-4">
+    <div className="min-h-screen w-full flex items-center justify-center bg-[#ddf0fa] font-sans p-4">
       
       {/* Clean Modern Card */}
       <div className="relative bg-white p-10 sm:p-14 rounded-[2.5rem] shadow-[0_20px_50px_rgba(15,23,42,0.08)] border border-slate-100 flex flex-col items-center gap-10 w-full max-w-md transition-all duration-300 hover:shadow-[0_20px_60px_rgba(15,23,42,0.12)]">
